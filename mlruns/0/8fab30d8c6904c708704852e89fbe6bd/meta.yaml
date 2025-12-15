@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/8fab30d8c6904c708704852e89fbe6bd/artifacts
+end_time: 1765820741822
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8fab30d8c6904c708704852e89fbe6bd
+run_name: unleashed-frog-114
+run_uuid: 8fab30d8c6904c708704852e89fbe6bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765820731594
+status: 3
+tags: []
+user_id: runner
