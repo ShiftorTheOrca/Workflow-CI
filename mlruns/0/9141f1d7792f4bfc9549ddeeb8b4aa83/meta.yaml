@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/9141f1d7792f4bfc9549ddeeb8b4aa83/artifacts
+end_time: 1765819301801
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9141f1d7792f4bfc9549ddeeb8b4aa83
+run_name: colorful-trout-170
+run_uuid: 9141f1d7792f4bfc9549ddeeb8b4aa83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765819292504
+status: 3
+tags: []
+user_id: runner

@@ -1,0 +1,10 @@
+digest: 5786b359
+name: dataset
+profile: '{"num_rows": 7000, "num_elements": 28000}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "make_year", "required": true},
+  {"type": "double", "name": "mileage_kmpl", "required": true}, {"type": "double",
+  "name": "engine_cc", "required": true}, {"type": "double", "name": "owner_count",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "runner", "mlflow.source.name": "modelling.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "170eac3e323518fbaa385f149039b0178eb71925"}}'
+source_type: code
