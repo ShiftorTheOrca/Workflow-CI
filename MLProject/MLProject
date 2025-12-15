@@ -1,0 +1,12 @@
+name: Proyek-Akhir-MSML-Workflow-CI
+ 
+conda_env: conda.yaml
+ 
+entry_points:
+  main:
+    parameters:
+      learning_rate: {type: float, default: 0.01}
+      max_depth: {type: int, default: 2}
+      n_estimators: {type: int, default: 150}
+      dataset : {type: string, default: "used_car_price_dataset_extended_preprocessing.csv"}
+    command: "python modelling.py {learning_rate} {max_depth} {n_estimators} {dataset}"
