@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/99f7f1873f3049279ee0aa37c241fd3d/artifacts
+end_time: 1765819967902
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 99f7f1873f3049279ee0aa37c241fd3d
+run_name: dazzling-chimp-208
+run_uuid: 99f7f1873f3049279ee0aa37c241fd3d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765819958056
+status: 3
+tags: []
+user_id: runner
