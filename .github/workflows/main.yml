@@ -58,15 +58,6 @@ jobs:
       #     REQ_TXT="mlruns/0/$RUN_ID/artifacts/model/requirements.txt"
       #     pip install $REQ_TXT
 
-      # Save models to GitHub Repository
-      - name: Upload to this GitHub Repository
-        run: |
-          git config --global user.name ${{ secrets.username }}
-          git config --global user.email ${{ secrets.email }}
-          git add mlruns/
-          git commit -m "[Automated CI] Save mlruns"
-          git push origin main
-
       # Buat Image Docker (build-docker)
       - name: Build Docker Model
         run: |
@@ -86,3 +77,12 @@ jobs:
       - name: Push Docker Image
         run: |
           docker push ${{ secrets.DOCKER_HUB_USERNAME }}/workflow-ci-msml:latest   
+
+      # Save models to GitHub Repository
+      - name: Upload to this GitHub Repository
+        run: |
+          git config --global user.name ${{ secrets.username }}
+          git config --global user.email ${{ secrets.email }}
+          git add mlruns/
+          git commit -m "[Automated CI] Save mlruns"
+          git push origin main
