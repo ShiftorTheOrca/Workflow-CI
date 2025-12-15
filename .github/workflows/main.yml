@@ -43,7 +43,7 @@ jobs:
       # Run as a mlflow project
       - name: Run mlflow project
         run: |
-          mlflow run MLproject --env-manager=local 
+          mlflow run MLproject/MLproject --env-manager=local 
 
       # Ambil run_id terbaru secara otomatis
       - name: Get latest MLflow run_id
