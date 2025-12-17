@@ -40,7 +40,7 @@ if __name__ == "__main__":
         )
         model.fit(X_train, y_train)
         
-        # Log hasil test model
+        # Log hasil test model, tambahan dari mlflow.autolog()
         score_gbr = model.score(X_test, y_test)
 
         y_pred = model.predict(X_test)
